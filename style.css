@@ -1,0 +1,211 @@
+.form {
+    background:white;
+    padding: 40px;
+    max-width:600px;
+    margin:30px auto;
+
+    
+  }
+  
+  .form-small {
+    background:#edebeb;
+    padding: 40px;
+    max-width:600px;
+    margin:10px auto;
+    border: #14b1b9 double;
+  }
+  
+  .h1-font {
+      font-family: Monserrat;
+      text-align: center;
+  }
+  
+  .contact-font {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      text-align: center;
+      color: rgb(111,111,111);
+  }
+  
+  .p-font {
+      margin: 20px 30px 20px;
+      font-size: 20px;  
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+  }
+  .noa{
+    color:#14b1b9;
+    letter-spacing: .5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .p-footer {
+      margin: 20px 10px 20px;
+      padding: 10px 50px 0px;
+      font-size: 11px;  
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+  }
+  
+ .mail-image {
+      padding:20px 0 0 10px;
+      max-width:100px;
+      margin:10px auto;
+      display: block;
+
+  } 
+  
+  /* Button */
+  :root {
+      --bg: rgb(243,243,243);
+      --color: rgba(255, 179, 0, 0.757);
+      --font: Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .wrapper {
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      padding-top: 30px;
+     
+  }
+  
+  .button {
+      display: inline-block;
+      text-align: center;
+      background: var(--color);
+      color: var(--bg);
+      font-weight: bold;
+      padding: 20px;
+      margin-bottom: 20px;
+      line-height: 1;
+      border-radius: 1em;
+      position: relative;
+      min-width: button;
+      text-decoration: none;
+      font-family: var(--font);
+      font-size: 18px;
+  }
+  
+
+  
+  /* Demo styles */
+  
+  body {
+      width: 100%;
+      height: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--bg);
+
+  }
+
+  /*  Icons */
+  
+  .social-buttons {
+    margin: auto;F
+    font-size: 0;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .social-button {
+    display: inline-block;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    opacity: .99;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  }
+  .social-button:before {
+    content: '';
+    background-color: #000;
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    top: 90%;
+    left: -110%;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  }
+  .social-button .fab {
+    font-size: 38px;
+    vertical-align: middle;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  }
+  /* //Facbook */
+  .social-button.facebook:before {
+    background-color:#14b1b9;
+  }
+  .social-button.facebook .fab {
+    color: #3B5998;
+  }
+  
+  /* //tiktok */
+  .social-button.tiktok:before {
+    background-color: #14b1b9;
+  }
+
+  .social-button.tiktok .fab {
+    color: #010101;
+  }
+  
+  /* //Instagram */
+  .social-button.instagram:before {
+    background-color: #14b1b9;
+    color:white;
+  }
+  .social-button.instagram .fab {
+    color: red;
+  }
+  
+  .social-button:focus:before, .social-button:hover:before {
+    top: -10%;
+    left: -10%;
+  }
+  .social-button:focus .fab, .social-button:hover .fab {
+    color: #fff;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  
+  .logo {
+      padding: 5px;
+      margin: 20px 0;
+  }
+  
+  /* Transitions */
+  
+  header, .logo{
+      -webkit-transition: all 1s;
+            transition: all 1s; 
+  }
+  
+  /* End Icon Social */
+  
