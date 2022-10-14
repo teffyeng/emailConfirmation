@@ -1,5 +1,1 @@
-# emailConfirmation
-# emailConfirmation
-# emailConfirmation
-# emailConfirmation
-# emailConfirmation
+# email Confirmation template for NOA in html and css 
